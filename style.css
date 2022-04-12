@@ -1,0 +1,103 @@
+/*Colors and fonts*/
+body {
+	background: url(images/ciel.jpg) no-repeat center fixed;
+	color: #575F7D;
+	background-size: cover;
+	font-size: 17px;
+	font-weight: 50;
+	font-family: Avenir next;
+}
+h1,h2,h3{
+	font-family:  Futura;
+	font-weight: lighter;
+}
+h1 {
+	color: #4E345B;
+	font-size: 32px;
+}
+h2 {
+	color: CE9DFB;
+	font-family: Futura;
+	font-size: 24px;
+	font-weight: 250;
+}
+a {text-decoration: none;
+   color: #821C9B; 
+   font-weight: 300;
+}
+a:hover {
+	color:#FBE689;
+}
+
+/* Custom design with class (99% of your design) */
+
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width:  760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+
+@media (max-width:  500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 70px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle{
+	border-radius: 50%;
+	border: 2px solid #4E345B;
+}
+
+.btn-blue{
+	background-color:#4E345B;
+	color: white;
+	padding: 10px 10px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover{
+	background-color:#151a61;
+	color: white;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 40px;
+	color: #E0D6EA;
+}
+
+.list-inline i:hover {
+	color: #4E345B;
+}
+
+/* Design adjustments using id (1% design remaining) */
+#introduction p {
+	margin-bottom: 40px;
+}
+
+
+
